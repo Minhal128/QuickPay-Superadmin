@@ -1,0 +1,92 @@
+@font-face {
+  font-family: "Inter-Bold";
+  src: url("/fonts/Inter_18pt-Bold.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter-Medium";
+  src: url("/fonts/Inter_18pt-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter-ExtraBold";
+  src: url("/fonts/Inter_18pt-ExtraBold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter-Regular";
+  src: url("/fonts/Inter_24pt-Regular.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PlusJakartaSans-Regular";
+  src: url("/fonts/PlusJakartaSans-Regular.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PlusJakartaSans-Medium";
+  src: url("/fonts/PlusJakartaSans-Medium.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PlusJakartaSans-Bold";
+  src: url("/fonts/PlusJakartaSans-Bold.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PlusJakartaSans-ExtraBold";
+  src: url("/fonts/PlusJakartaSans-ExtraBold.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+.font-Inter-Bold {
+  font-family: "Inter-Bold";
+}
+
+.font-Inter-Regular {
+  font-family: "Inter-Regular";
+}
+.font-Inter {
+  font-family: "Inter-Medium";
+}
+.font-Inter-ExtraBold {
+  font-family: "Inter-ExtraBold";
+}
+
+.font-PlusJakartaSans-Regular {
+  font-family: "PlusJakartaSans-Regular";
+}
+
+.font-PlusJakartaSans-Medium {
+  font-family: "PlusJakartaSans-Medium";
+}
+
+.font-PlusJakartaSans-Bold {
+  font-family: "PlusJakartaSans-Bold";
+}
+.font-PlusJakartaSans-ExtraBold {
+  font-family: "PlusJakartaSans-ExtraBold";
+}

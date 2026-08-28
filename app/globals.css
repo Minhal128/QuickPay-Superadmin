@@ -1,0 +1,100 @@
+@import "tailwindcss";
+@import "./font.css";
+@import "leaflet/dist/leaflet.css";
+
+/* Hide scrollbar */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.2s ease-in-out;
+}
+
+/* Continuous vertical scroll animations */
+
+@keyframes scrollUp {
+  0% {
+    transform: translateY(0%);
+  }
+  100% {
+    transform: translateY(-50%);
+  }
+}
+
+@keyframes scrollDown {
+  0% {
+    transform: translateY(-50%);
+  }
+  100% {
+    transform: translateY(0%);
+  }
+}
+
+.scroll-up {
+  animation: scrollUp 20s linear infinite;
+}
+
+.scroll-down {
+  animation: scrollDown 20s linear infinite;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-scroll {
+  display: flex;
+  width: max-content;
+  animation: scroll 25s linear infinite;
+}
+
+
+/* Leaflet Map */
+
+.leaflet-container {
+  width: 100%;
+  height: 100%;
+  background: #0b0b0d;
+}
+
+/* Remove all controls */
+.leaflet-control-container {
+  display: none !important;
+}
+
+/* Remove attribution watermark */
+.leaflet-control-attribution {
+  display: none !important;
+}
+
+/* Remove zoom buttons */
+.leaflet-control-zoom {
+  display: none !important;
+}
+
+/* Remove bottom-right Leaflet text */
+.leaflet-bottom,
+.leaflet-right {
+  display: none !important;
+}
